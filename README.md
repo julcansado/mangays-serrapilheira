@@ -1,4 +1,9 @@
 
+## TEMPERATURE AND PRECIPITATION METRICS
+Source: EERA5 monthly averaged data on single levels from 1940 to present <br>
+Monthly averaged reanalysis: 1985-2015 <br>
+
+
 ### TEMPERATURE METRICS
 | Column Name                     | Unit | Mathematical Operation | Explanation |
 |----------------------------------|------|------------------------|-------------|
@@ -22,3 +27,24 @@
 | mean_yearly_precip_std | mm | mean( std(P_months)_year ) | Mean intra-annual precipitation variability |
 | interannual_precip_std | mm | std( sum(P_months)_year ) | Variability of total annual precipitation across 30 years |
 | interannual_precip_cv | unitless | interannual_precip_std / mean_annual_precip | Normalized precipitation stability metric |
+
+---
+
+## SALINITY METRICS
+Source: ORAS5 global ocean reanalysis monthly data from 1958 to present <br>
+Consolidated: 1985-2014 <br>
+Operational: 2015
+
+### SEA SURFACE SALINITY (SSS) METRICS
+
+| Column Name                     | Unit     | Mathematical Operation                                              | Explanation |
+|----------------------------------|----------|---------------------------------------------------------------------|------------|
+| mean_annual_salinity             | PSU      | mean( mean(SSS_months)_year )                                       | Long-term mean of annual mean sea surface salinity across 30 years |
+| median_annual_salinity           | PSU      | median( mean(SSS_months)_year )                                     | Median of annual mean salinity across 30 years (robust central tendency) |
+| mean_yearly_freshest_month       | PSU      | mean( min(SSS_months)_year )                                        | Mean salinity of the freshest (minimum) month in each year |
+| mean_yearly_saltiest_month       | PSU      | mean( max(SSS_months)_year )                                        | Mean salinity of the saltiest (maximum) month in each year |
+| mean_yearly_salinity_range       | PSU      | mean( max(SSS_months)_year − min(SSS_months)_year )                 | Mean seasonal salinity amplitude (within-year range) |
+| mean_yearly_salinity_std         | PSU      | mean( std(SSS_months)_year )                                        | Mean intra-annual (seasonal) salinity variability |
+| interannual_salinity_std         | PSU      | std( mean(SSS_months)_year )                                        | Standard deviation of annual mean salinity across 30 years |
+| interannual_salinity_cv          | unitless | std( mean(SSS_months)_year ) / mean( mean(SSS_months)_year )        | Relative interannual variability (coefficient of variation) |
+
