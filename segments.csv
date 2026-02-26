@@ -1,0 +1,9 @@
+﻿segment,start_point,start_lat_dms,start_lat_decimal,end_point,end_lat_dms,end_lat_decimal,description,central_lat,lat_range
+Segmento I,Cabo Orange,04°30'N,4.5,Cabo Norte,01°40'N,1.6666666666666665,Costa alluvial influenciada pela pluma do Amazonas; dominância de Avicennia.,3.083333333333333,4.5000 to 1.6667
+Segmento II,Cabo Norte,01°40'N,1.6666666666666665,Ponta Curuçá,00°36'S,-0.6,Parte do Delta do Amazonas; manguezais pobres devido ao excesso de água doce.,0.5333333333333332,1.6667 to -0.6000
+Segmento III,Ponta Curuçá,00°36'S,-0.6,Ponta Mangues Secos,02°15'S,-2.25,Planície costeira dissecada por estuários largos; dominância de Rhizophora na franja.,-1.425,-0.6000 to -2.2500
+Segmento IV,Ponta Mangues Secos,02°15'S,-2.25,Cabo Calcanhar,05°08'S,-5.133333333333334,"Costa retilínea, alta energia de ondas e clima seco; manguezais limitados à foz dos rios.",-3.691666666666667,-2.2500 to -5.1333
+Segmento V,Cabo Calcanhar,05°08'S,-5.133333333333334,Recôncavo Baiano,13°00'S,-13.0,Costa exposta a correntes marinhas; manguezais em áreas protegidas e lagoas.,-9.066666666666666,-5.1333 to -13.0000
+Segmento VI,Recôncavo Baiano,13°00'S,-13.0,Cabo Frio,23°00'S,-23.0,Praias arenosas e lagoas costeiras; manguezais bem desenvolvidos através de barreiras.,-18.0,-13.0000 to -23.0000
+Segmento VII,Cabo Frio,23°00'S,-23.0,Torres,29°20'S,-29.333333333333332,Serra do Mar próxima ao oceano; o limite real do mangue ocorre em Laguna (28°30'S).,-26.166666666666664,-23.0000 to -29.3333
+Segmento VIII,Torres,29°20'S,-29.333333333333332,Chui,33°35'S,-33.583333333333336,Condições climáticas desfavoráveis impedem o desenvolvimento de manguezais.,-31.458333333333336,-29.3333 to -33.5833
